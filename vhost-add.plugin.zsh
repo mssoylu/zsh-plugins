@@ -49,7 +49,7 @@ function vhost-add() {
     sudo mkdir -p "/var/www/$vhostName/root/public"
 
     # Virtual host dosyasını düzenle
-    vhost-edit "$vhostName"
+    vhost-edit "$vhostName.conf"
 }
 
 # Tab tamamlama işlevini manuel olarak tanımla
