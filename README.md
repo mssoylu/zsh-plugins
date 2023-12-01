@@ -4,9 +4,15 @@ For setup;
 
 ``zsh setup.sh``
 
-Add plugins `~/.zshrc`
+Add plugins 
+
+`vim ~/.zshrc`
+
+Update this row;
 
 ``plugins=(git vhost-add vhost-edit vhost-rm)``
+
+Rebuild zshrc;
 
 ``source ~/.zshrc``
 
