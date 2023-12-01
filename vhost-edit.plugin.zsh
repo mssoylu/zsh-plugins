@@ -1,10 +1,10 @@
-# ~/.oh-my-zsh/custom/plugins/vhost/vhost.plugin.zsh
+# ~/.oh-my-zsh/custom/plugins/vhost-edit/vhost-edit.plugin.zsh
 
 # Virtual host dosyalarının bulunduğu dizin
 vhostDir="/etc/apache2/sites-available/"
 
 # vhost komutunu tanımla
-function vhost() {
+function vhost-edit() {
     local vhostFiles
     vhostFiles=(${vhostDir}*.conf)
 

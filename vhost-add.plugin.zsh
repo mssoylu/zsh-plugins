@@ -1,7 +1,7 @@
 # ~/.oh-my-zsh/custom/plugins/vhost-add/vhost-create.plugin.zsh
 
 # Virtual host dosyalarının bulunduğu dizin
-vhostDir="/etc/apache2/sites-available/"
+vhostDir="/etc/apache2/sites-enabled/"
 
 # vhost-add komutunu tanımla
 function vhost-add() {
@@ -49,7 +49,7 @@ function vhost-add() {
     sudo mkdir -p "/var/www/$vhostName/root/public"
 
     # Virtual host dosyasını düzenle
-    vhost "$vhostName"
+    vhost-edit "$vhostName"
 }
 
 # Tab tamamlama işlevini manuel olarak tanımla
