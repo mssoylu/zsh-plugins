@@ -1,5 +1,16 @@
 # My Zsh Plugins
 
+For setup;
+
+``zsh setup.sh``
+
+Add plugins `~/.zshrc`
+
+``plugins=(git vhost-add vhost-edit vhost-rm)``
+
+``source ~/.zshrc``
+
+
 ## Apache Virtualhost Plugins
 
 You can use Tab key after vhost-* command.
